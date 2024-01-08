@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Better@Home</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+</head>
+
+<body>
+    
+    <!--Navigation Bar-->
+    <div class="navigation-bar">
+
+        <nav>
+
+            <img id = logo src="logo.png" alt="Better@Home">
+    
+            <ul>
+                
+                <li><a class="sign-in" href="signin.html"><i class="fas fa-envelope"></i>  Newsletter</a></li>
+
+                <li><a href="index.html">Home</a></li>
+
+
+                <li><a href="recipes.html">Recipes</a></li>
+           
+
+                <li><a href="contact.html">Contact Us</a></li>
+
+
+            </ul>
+
+        </nav>
+
+    </div>
+
+
+
+ <!--Newsletter Page-->
+<section>
+    
+    <div id="newsletter">
+
+        <div id="newsletter-container">
+
+            <h2>Newsletter</h2>
+            <p>Subscribe to our newsletter and elevate your culinary journey with delicious recipes, cooking tips, and food inspiration!</p>
+
+            <form action="newsletter-response.html" method="get" name="newsletter_form" id="newsletter_form">
+
+                <input type="text" id="firstName" placeholder="First Name" required>
+                <span class="error-message"></span>
+
+                <input type="text" id="lastName" placeholder="Last Name" required>
+                <span class="error-message"></span>
+
+                <input type="email" id="email" placeholder="E-mail" autocomplete="off" required>
+                <span class="error-message"></span>
+
+                <input type="tel" id="phone" placeholder="Phone Number" required>
+                <span class="error-message"></span>
+                
+                <input type="submit" id="submitBtn" value="Spice Up My Inbox!">
+                
+            </form>            
+            
+ 
+
+        </div>
+        
+    </div>
+
+</section>
+
+
+<!--Footer-->
+
+    <footer>
+        &copy; 2023 Better@Home Recipes
+    </footer>
+
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="newsletter.js"></script>
+</body>
+ 
+</html>
