@@ -1,2 +1,2 @@
 # Better-Home
-A site for people to get easy and simple recipes
+A site for those who wish to access quick and easy recipes!
